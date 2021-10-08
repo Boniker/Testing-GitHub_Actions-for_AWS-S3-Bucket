@@ -6,7 +6,6 @@ env:
   DEPLOY_PACKAGE_NAME: "test_app_${{github.sha}}.zip"
   AWS_REGION_NAME: "eu-central-1"
 
-
 on:
   push:
     branches: [ master ]
