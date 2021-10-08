@@ -1,8 +1,8 @@
 name: CI-CD-Pipeline-to-AWS-ElasticBeanstalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME: "testing-application-packages"
-  EB_APPLICATION_NAME: "TestApp"
-  EB_ENVIRONMENT_NAME: "Testapp-env"
+  EB_APPLICATION_NAME: "MyTable"
+  EB_ENVIRONMENT_NAME: "Mytable-env"
   DEPLOY_PACKAGE_NAME: "test_app_${{github.sha}}.zip"
   AWS_REGION_NAME: "eu-central-1"
 
