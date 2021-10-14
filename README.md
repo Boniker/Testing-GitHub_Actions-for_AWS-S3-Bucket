@@ -1,4 +1,4 @@
-# GitHub Actions Deploy Django to AWS ELastic Beanstalk
+# GitHub Actions Deploy Project to AWS ELastic Beanstalk
 
 Status of the Last Deployment
 
